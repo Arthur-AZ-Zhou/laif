@@ -157,7 +157,7 @@ public class Board extends JPanel implements ActionListener {
             y[0] += DOT_SIZE;
         }
     }
-
+ 
     private void checkCollision() {
 
         for (int z = dots; z > 0; z--) {
